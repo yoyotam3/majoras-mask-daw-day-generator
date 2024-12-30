@@ -30,7 +30,7 @@ export default function Main() {
       <p>The Final Day card title generator</p>
       <p>Edit the <strong>day</strong> and <strong>hours</strong> remaining</p>
 
-      <h2>Dawn of</h2>
+      <h2>Sundown of</h2>
       <input id="day" type="text" value={day} onChange={e => setDay(e.target.value)}/>
       <input id="hours" type="text" value={hours} onChange={e => setHours(e.target.value)}/>
 
