@@ -31,7 +31,7 @@ export default function Play({ location, history }) {
 
       {isAnimating && (
       <>
-        <h2>Dawn of</h2>
+        <h2>Sundown of</h2>
         <h1>{params.get('title')}</h1>
         <h3 className={isShowingHours}>-{params.get('subtitle')}-</h3>
       </>
